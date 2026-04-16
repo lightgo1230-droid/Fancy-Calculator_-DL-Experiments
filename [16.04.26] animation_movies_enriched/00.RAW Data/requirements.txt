@@ -1,0 +1,24 @@
+# ── 공통 ──────────────────────────────────────────────────────────────────────
+torch>=2.0.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# ── 프로젝트 1: NLP (HuggingFace Transformers) ────────────────────────────────
+transformers>=4.35.0
+tokenizers>=0.15.0
+sentencepiece
+
+# ── 프로젝트 2: 정형 데이터 (기본 PyTorch만 사용, 추가 설치 없음) ─────────────
+
+# ── 프로젝트 3: 그래프 (PyTorch Geometric) ────────────────────────────────────
+# CPU 전용 설치 방법:
+#   pip install torch_geometric
+#   pip install torch_scatter torch_sparse -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+# CUDA 12.x 설치 방법:
+#   pip install torch_geometric
+#   pip install torch_scatter torch_sparse -f https://data.pyg.org/whl/torch-2.0.0+cu121.html
+torch_geometric>=2.4.0
+networkx>=3.1
