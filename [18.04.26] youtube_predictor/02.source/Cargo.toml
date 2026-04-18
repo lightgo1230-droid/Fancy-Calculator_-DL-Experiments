@@ -1,0 +1,15 @@
+[package]
+name    = "youtube_viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe     = "0.29"
+egui_plot  = "0.29"
+serde_json = "1"
+
+[build-dependencies]
+winres = "0.1"
+
+[profile.release]
+opt-level = 3
