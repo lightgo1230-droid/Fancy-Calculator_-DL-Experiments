@@ -33,7 +33,7 @@ Australia, Brazil, Canada, Eurozone, India, Japan, South Korea, United Kingdom, 
 ## Project Structure
 
 ```
-폴더1/
+/
 ├── README.md
 ├── Cargo.toml          — Rust package manifest
 ├── build.rs            — Build-time icon generation (abstract "L" logo, ICO embedding)
