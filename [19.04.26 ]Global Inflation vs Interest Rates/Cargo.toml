@@ -1,0 +1,24 @@
+[package]
+name        = "inflation_viewer"
+version     = "0.1.0"
+edition     = "2021"
+description = "Global Inflation vs Interest Rates Analysis Dashboard"
+
+[[bin]]
+name = "inflation_viewer"
+path = "src/main.rs"
+
+[dependencies]
+eframe    = { version = "0.28", features = ["default"] }
+egui      = "0.28"
+egui_plot = "0.28"
+csv       = "1.3"
+
+[build-dependencies]
+winres = "0.1"
+
+[profile.release]
+opt-level      = 3
+lto            = true
+codegen-units  = 1
+strip          = true
