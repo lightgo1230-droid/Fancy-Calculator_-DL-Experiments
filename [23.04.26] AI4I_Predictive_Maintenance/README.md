@@ -183,3 +183,8 @@ Desktop/
 ---
 
 *© 2026 lightgo. All rights reserved.*
+
+
+Source: Based on the AI4I 2020 Predictive Maintenance Dataset by Stephan Matzka
+Licensed under CC BY 4.0 
+Feature Engineering
