@@ -102,4 +102,4 @@ MIT
 
 ## Copyright
 
-Copyright © 2025 lightgo · lgithgo1230@gmail.com
+Copyright © 2026 lightgo · lgithgo1230@gmail.com
