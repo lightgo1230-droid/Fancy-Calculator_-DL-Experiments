@@ -1,7 +1,7 @@
 # ⚙ QMIX Simulator 
 
 **Generated:** 2026-04-25
-**Contact:** lgithgo1230@gmail.com
+**Contact:** lightgo1230@gmail.com
 **Copyright:** © 2026 lightgo. All rights reserved.
 
 > *No rain, no flowers.*
