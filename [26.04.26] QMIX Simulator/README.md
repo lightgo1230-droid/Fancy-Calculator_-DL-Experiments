@@ -10,7 +10,7 @@
 
 ## Overview
 
-QMIX Simulator is a smart factory multi-agent simulation built with Rust + egui.
+QMIX Simulator is a multi-agent simulation built with Rust + egui.
 Agents autonomously transport raw materials → process at workstations → deliver finished goods.
 Two control modes are supported: **BFS Heuristic** and **DQN Reinforcement Learning**.
 
@@ -28,21 +28,6 @@ Two control modes are supported: **BFS Heuristic** and **DQN Reinforcement Learn
 | Average Cycle Time (steps/product) | 300.0 |
 | Average WIP | 0.00 |
 | Average Total Distance | 13 |
-
----
-
-## Graph Files (`graphs/` folder)
-
-| File | Description |
-|------|-------------|
-| `01_products_per_episode.png` | Products delivered per episode + moving average |
-| `02_episode_reward.png` | Cumulative reward per episode |
-| `03_efficiency.png` | Efficiency (products per 100 distance units) |
-| `04_cycle_time.png` | Cycle time — steps required per product |
-| `05_wip.png` | Average Work In Progress per episode |
-| `06_agent_deliveries.png` | Per-agent delivery counts |
-| `07_kpi_dashboard.png` | 4-panel KPI overview dashboard |
-| `08_kpi_distribution.png` | Box plot distribution for all KPIs |
 
 ---
 
