@@ -137,4 +137,4 @@ MIT License
 - Embeddings: [sentence-transformers](https://www.sbert.net) — `paraphrase-multilingual-MiniLM-L12-v2`
 - Vector search: [FAISS](https://github.com/facebookresearch/faiss) (Facebook AI)
 - Local LLM: [Ollama](https://ollama.com)
-- Copyright © 2025 lightgo · lgithgo1230@gmail.com
+- Copyright © 2026 lightgo · lgithgo1230@gmail.com
