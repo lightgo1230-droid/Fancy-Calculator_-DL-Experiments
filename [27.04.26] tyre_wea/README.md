@@ -129,8 +129,6 @@ Pre-generated PNG charts exported from the dataset:
 20260427-1/
 ├── tyre_wea.exe            ← Main application (dataset embedded)
 ├── README.md               ← This file
-├── generate_charts.py      ← Chart export script (requires Python + matplotlib)
-├── backup_YYYYMMDD_HHMMSS/ ← Versioned backups
 └── addiction_results/      ← Pre-generated analysis charts (PNG)
     ├── 01_brand_wear_comparison.png
     ├── 02_road_type_analysis.png
